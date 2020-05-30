@@ -1,0 +1,14 @@
+Steps:
+1. Move the cursor to the character from which the contents have to be deleted.
+2. Type dfs to delete all characters from cursor to character 's'.
+
+Reference : https://stackoverflow.com/questions/11724897/vim-replace-all-characters-up-to-a-given-token
+
+Example:
+
+Word : The way things have been.
+Command : dfa
+Cursor position : At 't' in word things.
+
+Output : The way ve been.
+

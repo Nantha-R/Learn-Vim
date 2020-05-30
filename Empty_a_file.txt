@@ -1,0 +1,7 @@
+Steps:
+1. Type true > file_name.txt to empty file contents
+
+Example:
+
+Filename : abc.txt
+Command : true > abc.txt

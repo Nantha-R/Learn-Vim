@@ -1,0 +1,8 @@
+Steps:
+1. Type grep 'Word' file_name.txt -c
+
+Example:
+
+Filename: xyz.txt
+Word to be searched for: abc
+Command: grep 'abc' xyz.txt -c

@@ -1,0 +1,2 @@
+1. Enter into normal mode by pressing ESC.
+2. Press yy to copy current line contents. 

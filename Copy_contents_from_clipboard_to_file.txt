@@ -1,0 +1,7 @@
+Steps:
+1. Type pbpaste > file_name.txt
+
+Example :
+
+Filename : abc.txt
+Command : pbpaste > abc.txt

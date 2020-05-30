@@ -1,0 +1,11 @@
+Steps :
+1. Switch to Visual block mode in VIM [Ctrl + v]
+2. Select the required lines [Cmd +  A to select all lines]
+3. Press Shift + i and then enter the text you want to enter in the first line.
+4. Press Esc and wait for a second , then the inserted text will be appended to all the selected lines.
+
+(Or)
+
+1. Press :%s!^!RequiredTest!
+
+The above command will insert "Required Text" at the beginning of each line.

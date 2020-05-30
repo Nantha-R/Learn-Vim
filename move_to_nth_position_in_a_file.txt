@@ -1,0 +1,2 @@
+1. Enter into normal mode by pressing ESC.
+2. Type 5| to move to 5th character in a file.
