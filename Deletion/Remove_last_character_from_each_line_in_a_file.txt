@@ -1,0 +1,7 @@
+Reference : https://stackoverflow.com/questions/14840953/how-to-remove-a-character-at-the-end-of-each-line-in-unix
+
+Remove the last character present in each line in a file.
+Command : sed 's/.$//' file.txt > updated_file.txt
+
+Remove last comma present in each line in a file.
+Command : sed 's/,$//' file.txt > updated_file.txt

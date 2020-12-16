@@ -1,0 +1,26 @@
+comm command compare two sorted files line by line and write to standard output; the lines that are common and the lines that are unique.
+Reference : https://www.geeksforgeeks.org/comm-command-in-linux-with-examples/
+Options :
+-1 : lines unique to first file.
+-2 : lines unique to second file.
+-3 : lines common to both files.
+
+Example :
+File_1 contents :
+1
+2
+File_2 contents :
+2
+3
+
+Command : comm -23 file_1.txt fi1e_2.txt
+Output :
+1
+
+Command : comm -13 file_1.txt fi1e_2.txt
+Output :
+3
+
+Command : comm -12 file_1.txt fi1e_2.txt
+Output :
+2

@@ -1,0 +1,7 @@
+To grep the nth word present in a sentence.
+Command : "One two three four" | awk '{print $n}'
+
+Example:
+To grep for third word present in a sentence.
+Command : "One two three four" | awk '{print $3}'
+Output : three
